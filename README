@@ -1,0 +1,84 @@
+CONNECTIONS
+------------------------------------/
+- Friends Connections
+- Custom Profiles
+- Like / Recomend
+	
+- Connections
+------------------------------------/
+	Are how we can tell what to show and what not to show to a specific user.
+	- Friends
+	- Friends of Friends
+	- Friend Recomends
+	- Mentioned
+	- Tagged
+	- Repost
+	
+
+COMMUNICATION
+------------------------------------/
+- Streams
+- Status Updates
+- Private Messages
+
+MEDIA SHARE
+------------------------------------/
+- Photos Upload
+- Video Embed
+- Link Share
+
+
+==========================================
+============== STREAMS ===================
+==========================================
+- body
+- cached_body
+- cached_comments
+- created_on
+- modified_on
+- LatLng
+- City/State
+- share_rules
+
+Updates
+------------------------------------/
+- Body (see above)
+
+Check-In:
+------------------------------------/
+- place_name
+- place_lnglat
+- place_location
+- place_img_url
+- place_meta
+
+
+oEmbed (videos):
+------------------------------------/
+- media_type
+- media_title
+- media_url
+- media_provider
+- media_meta
+
+Links:
+------------------------------------/
+- link_url
+- link_title
+- link_description
+- link_image
+
+Photos:
+------------------------------------/
+
+
+==== Directories ========================
+
+Photos:
+profiles/user_id/photo_id
+
+Videos:
+profiles/images/oembed/oembed_id
+
+Links:
+profiles/images/links/link_id
